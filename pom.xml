@@ -156,6 +156,5 @@
       </plugin>
     </plugins>
   </build>
-     <finalName>Servlet</finalName>
 </project>
 
