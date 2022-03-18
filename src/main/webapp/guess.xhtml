@@ -12,11 +12,13 @@ and open the template in the editor.
             <title>Guess</title>
 	</h:head>
      <center>
-            <h:head>Adivine un numero entre 1 y 100</h:head>
+	     <h1>Guess</h1>
+	     <br></br>
+	     <br></br>
+             <h:head>Adivine un numero entre 1 y 100</h:head>
      </center>
     <h:body style="background-color:#82CE14;"> 
         <center>
-		<h1>Guess</h1>
               <h:form id="formulario_adivinanza">
                   <p:outputLabel value="#{guessBean.numeroAdivinar}" ></p:outputLabel>
                   <p:inputText id="num" size="20" placeholder="Numero entre 1 y 100" value="#{guessBean.numero}" required="true"></p:inputText>
