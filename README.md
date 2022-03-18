@@ -9,5 +9,5 @@
 ### CircleCI Badge
 
 > _CIRCLECI_
-[![CircleCI](https://circleci.com/gh/santiagolaiton2700/CVDS-02-LAB-06.svg?style=svg)](https://circleci.com/gh/santiagolaiton2700/CVDS-02-LAB-06)
+[![CircleCI](https://circleci.com/gh/CarlosSorza/lab06_CVDS_2022.svg?style=svg)](https://circleci.com/gh/CarlosSorza/lab06_CVDS_2022)
 
