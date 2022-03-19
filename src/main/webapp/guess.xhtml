@@ -35,10 +35,10 @@ and open the template in the editor.
                       <p:outputLabel value="Intentos: #{guessBean.intentos}"></p:outputLabel>
                       <p:outputLabel value="Premio: $#{guessBean.premio}"></p:outputLabel>
                   </h:panelGrid>
-                  <p:outputLabel value="#{guessBean.estado}"></p:outputLabel>
+                  <p:outputLabel value="#{guessBean.estado}" style="color:red;"></p:outputLabel>
                   <br/>
-                  <p:commandButton value="Enviar" update="formulario_adivinanza" actionListener="#{guessBean.comparar}" icon="ui-icon-check"></p:commandButton>
-                  <p:commandButton value="Reiniciar" update="formulario_adivinanza" actionListener="#{guessBean.reiniciar}" icon="ui-icon-arrowreturnthick-1-w"></p:commandButton>
+                  <p:commandButton value="Enviar" update="formulario_adivinanza" actionListener="#{guessBean.comparar}" icon="ui-icon-check" style="color:red;"></p:commandButton>
+                  <p:commandButton value="Reiniciar" update="formulario_adivinanza" actionListener="#{guessBean.reiniciar}" icon="ui-icon-arrowreturnthick-1-w" style="color:red;"></p:commandButton>
               </h:form>
         </center>
     </h:body>
