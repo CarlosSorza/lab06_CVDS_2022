@@ -11,5 +11,5 @@
 > _CIRCLECI_
 [![CircleCI](https://circleci.com/gh/CarlosSorza/lab06_CVDS_2022.svg?style=svg)](https://circleci.com/gh/CarlosSorza/lab06_CVDS_2022)
 
-## Pagina
+### Guess
 http://lab06cvds2022.herokuapp.com/faces/guess.xhtml
